@@ -1,0 +1,8 @@
+# Setup Dependabot di GitHub
+# Buat file .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
